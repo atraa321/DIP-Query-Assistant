@@ -1,0 +1,12 @@
+{
+  "resident_point_value": null,
+  "employee_point_value": null,
+  "database_path": "data/dip_lookup.db",
+  "source_directory": "数据源",
+  "window_x": 120,
+  "window_y": 120,
+  "window_width": 860,
+  "window_height": 620,
+  "always_on_top": true,
+  "idle_opacity": 0.78
+}

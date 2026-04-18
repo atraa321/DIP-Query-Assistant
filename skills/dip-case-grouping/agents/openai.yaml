@@ -1,0 +1,4 @@
+interface:
+  display_name: "DIP分组核算"
+  short_description: "用于DIP分组入组分值点值核算与未入组问题分析工作"
+  default_prompt: "Use $dip-case-grouping to analyze DIP grouping, accounting, and unmatched cases in this project."
