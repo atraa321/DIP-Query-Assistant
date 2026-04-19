@@ -1,7 +1,14 @@
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
+
+# Ensure src/ (which contains the 'dip_assistant' package) is on sys.path.
+_SCRIPT_DIR = Path(__file__).resolve().parent
+_SRC_DIR = _SCRIPT_DIR.parent / "src"
+if str(_SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(_SRC_DIR))
 
 from dip_assistant.data_builder import build_lookup_database
 from dip_assistant.paths import DEFAULT_DB_PATH, DEFAULT_DIRECTORY_XLSX
